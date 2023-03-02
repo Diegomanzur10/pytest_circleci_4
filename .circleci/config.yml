@@ -12,5 +12,7 @@ jobs:
 
 
 workflows:
-  jobs:
-    - build
+  build1:
+    jobs:
+      - build
+    
