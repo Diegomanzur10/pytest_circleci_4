@@ -26,4 +26,7 @@ workflows:
   build1:
     jobs:
       - build
+      - testing:
+        requires:
+          - build
     
